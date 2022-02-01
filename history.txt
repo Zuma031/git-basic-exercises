@@ -1,0 +1,56 @@
+    1  ls
+    2  cd Documents
+    3  ls
+    4  mkdir DE
+    5  cd DE
+    6  ls
+    7  ssh-keygen -t rsa -b 4096 -C "msawenkosi.zuma@umuzi.org"
+    8  git clone https://github.com/Zuma031/git-basic-exercises.git
+    9  ls
+   10  cd git-basic-exercises.git
+   11  cd git-basic-exercises
+   12  touch README.md
+   13  git status
+   14  git add README.md
+   15  git commit -m "Created readme file"
+   16  git push -u origin main
+   17  nano README.md
+   18  cat README.md
+   19  git add README.md
+   20  git commit -m "initial commit"
+   21  git status
+   22  git commit -m "second commit"
+   23  git commit -m "third commit"
+   24  git log
+   25  nano README
+   26  nano README.md
+   27  git add README.md
+   28  git commit -m "second commit"
+   29  nano README.md
+   30  git add README.md
+   31  git commit -m "third commit"
+   32  git log
+   33  q
+   34  git checkout a6d96702c40c1a6fdf55c4b5e295ee6ebb40d5c1
+   35  cat README.md
+   36  git checkout main
+   37  cat README.md
+   38  git branch milkshake-flovours
+   39  git -d milkshake-flovours
+   40  git rm -r --cached milkshake-flovours
+   41  git checkout -b milkshake-flavours
+   42  git branch
+   43  nano milkshake.md
+   44  git status
+   45  git mv milkshake.md milkshakes.md
+   46  git add milkshake.md
+   47  git mv milkshake.md milkshakes.md
+   48  git status
+   49  cat milkshakes.md
+   50  git add milkshakes.md
+   51  git commit -m "added initial flavours"
+   52  git log
+   53  git checkout main 
+   54  git checkout -b history
+   55  git log
+   56  history > history.txt
